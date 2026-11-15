@@ -1,45 +1,65 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="PRABHAKARLAW — coming soon. Contact the firm by email." />
-    <meta name="theme-color" content="#111827" />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23111827'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Georgia' font-size='34' fill='%23f7f1e7'%3EP%3C/text%3E%3C/svg%3E" />
-    <title>PRABHAKARLAW — Coming Soon</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Prabhakar Law Professional Corporation provides immigration, wills, powers of attorney and notary services in Ontario." />
+    <title>Prabhakar Law Professional Corporation | Ontario Lawyer</title>
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Caslon+Display&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-    <div class="page">
-      <header class="header">
-        <a class="wordmark" href="#main" aria-label="PRABHAKARLAW home">PRABHAKAR<span>LAW</span></a>
-        <p class="header-status"><span aria-hidden="true"></span>Website coming soon</p>
-      </header>
-
-      <main id="main" class="main">
-        <div class="crest" aria-hidden="true">
-          <span class="crest-rule"></span>
-          <span class="crest-letter">P</span>
-          <span class="crest-rule"></span>
-        </div>
-        <p class="overline">PRABHAKARLAW</p>
-        <h1>Our new website<br />is coming soon.</h1>
-        <p class="subhead">We are preparing a considered new online presence.<br class="desktop-break" /> For enquiries in the meantime, please get in touch.</p>
-        <a class="email-button" href="mailto:info@prabhakarlaw.com">
-          <span class="email-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3.5 6.5h17v11h-17zM4 7l8 6 8-6" /></svg></span>
-          <span class="email-copy"><small>Email us</small><strong>info@prabhakarlaw.com</strong></span>
-          <svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-5-5 5 5-5 5" /></svg>
-        </a>
-      </main>
-
-      <footer class="footer">
-        <p>Legal counsel, thoughtfully delivered.</p>
-        <p>© <span id="year"></span> PRABHAKARLAW</p>
-      </footer>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div class="topbar">
+      <div class="container topbar__inner"><span>Ontario, Canada</span><div class="topbar__group"><a href="tel:+12268384444">+1 (226) 838-4444</a><a href="mailto:info@prabhakarlaw.com">info@prabhakarlaw.com</a></div></div>
     </div>
-    <script src="./script.js"></script>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="index.html"><img src="assets/images/logo.jpg" alt="Prabhakar Law Professional Corporation" /></a>
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle><span></span></button>
+        <nav class="site-nav" aria-label="Primary" data-site-nav>
+          <a href="index.html#immigration">Immigration</a><a href="index.html#wills">Wills &amp; POA</a><a href="index.html#notary">Notary</a><a href="about.html">About</a><a href="contact.html">Contact</a><a class="button button--gold" href="contact.html">Request a Consultation</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero__inner">
+          <div class="hero__content">
+            <p class="eyebrow">Barrister, Solicitor &amp; Notary Public · Ontario</p>
+            <h1>Immigration, wills and notary services in Ontario.</h1>
+            <p class="hero__lead">Whether you’re planning your future in Canada, preparing for your family’s future, or need an important document notarized, Prabhakar Law provides practical, personalized legal guidance.</p>
+            <div class="hero__actions"><a class="button" href="contact.html">Request a Consultation →</a><a class="button button--outline" href="tel:+12268384444">Call +1 (226) 838-4444</a></div>
+          </div>
+          <div class="hero__media"><img src="assets/images/hero-mukesh.jpg" alt="Mukesh Prabhakar in barrister's robes outside his office" /></div>
+        </div>
+      </section>
+
+      <section class="services" aria-labelledby="services-title">
+        <div class="container">
+          <div class="section-heading"><p class="eyebrow">How we can help</p><h2 class="section-title" id="services-title">Our Areas of Practice</h2><div class="ornament" aria-hidden="true">✦</div></div>
+          <div class="cards">
+            <article class="service-card" id="immigration"><div class="service-icon" aria-hidden="true">✦</div><h3>Immigration &amp; Citizenship</h3><p>Guidance on Canadian immigration matters, from initial applications to appeals and judicial review.</p><ul class="check-list"><li>Study and work permits</li><li>Visitor visas</li><li>Permanent residence</li><li>Family sponsorship</li><li>Canadian citizenship</li><li>Refusals, appeals and judicial review</li></ul><a class="text-link" href="contact.html">Book a consultation →</a></article>
+            <article class="service-card" id="wills"><div class="service-icon" aria-hidden="true">§</div><h3>Wills &amp; Powers of Attorney</h3><p>Help with wills, powers of attorney and planning for your family’s future.</p><ul class="check-list"><li>Preparing a new will</li><li>Reviewing an existing will</li><li>Power of attorney for property</li><li>Power of attorney for personal care</li><li>Choosing an executor and attorneys</li></ul><a class="text-link" href="contact.html">Book a consultation →</a></article>
+            <article class="service-card" id="notary"><div class="service-icon" aria-hidden="true">✓</div><h3>Notary Services</h3><p>Notarization, certified true copies, affidavits, statutory declarations and more.</p><ul class="check-list"><li>Notarization of documents</li><li>Certified true copies</li><li>Affidavits and statutory declarations</li><li>Letters of invitation</li><li>Commissioning of documents</li></ul><a class="text-link" href="contact.html">Book an appointment →</a></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="process">
+        <div class="container process__inner"><div><h2>A Straightforward Process</h2><p>From your first inquiry to clear next steps, we make it easy to get the legal support you need.</p></div><div class="steps"><article class="step"><span class="step__number">1</span><h3>Reach Out</h3><p>Tell us briefly what you need help with.</p></article><article class="step"><span class="step__number">2</span><h3>Consult</h3><p>Discuss your situation, options and next steps.</p></article><article class="step"><span class="step__number">3</span><h3>Move Forward</h3><p>Get practical guidance tailored to your circumstances.</p></article></div></div>
+      </section>
+
+      <section class="profile">
+        <div class="container profile__inner"><img class="profile__photo" src="assets/images/mukesh-portrait.jpg" alt="Mukesh Prabhakar in court dress" /><div class="profile__content"><p class="eyebrow">Meet your lawyer</p><h2 class="section-title">Mukesh Prabhakar</h2><span class="profile__role">Barrister, Solicitor &amp; Notary Public</span><p>Mukesh Prabhakar founded Prabhakar Law to provide individuals and families with thoughtful, practical legal assistance. He takes the time to understand each client’s circumstances, explain the options in clear terms, and guide them through the legal process with care.</p><a class="button button--outline" href="about.html">About Mukesh →</a></div></div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="container footer-main"><div class="footer-grid"><div><div class="footer-brand">PRABHAKAR LAW</div><div class="footer-subbrand">PROFESSIONAL CORPORATION</div><p class="footer-tagline">Barrister, Solicitor &amp; Notary Public · Ontario, Canada</p></div><div><span class="footer-heading">Services</span><div class="footer-links"><a href="#immigration">Immigration &amp; Citizenship</a><a href="#wills">Wills &amp; Powers of Attorney</a><a href="#notary">Notary Services</a></div></div><div><span class="footer-heading">Contact</span><div class="footer-links"><a href="tel:+12268384444">+1 (226) 838-4444</a><span>Fax: +1 (226) 400-2423</span><a href="mailto:info@prabhakarlaw.com">info@prabhakarlaw.com</a><span>Ontario, Canada</span></div></div></div><p class="footer-privacy"><a href="privacy.html">Privacy.</a> No mobile information will be shared with third parties for marketing or promotional purposes. Text messaging originator opt-in data and consent will not be shared with third parties.</p></div><div class="container footer-bottom"><span>The content of this website is for general information only and does not constitute legal advice.</span><span>© <span data-year></span> Prabhakar Law Professional Corporation</span></div></footer>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
