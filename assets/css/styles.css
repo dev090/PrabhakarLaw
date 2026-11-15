@@ -146,6 +146,8 @@ button, input, select, textarea { font: inherit; }
 .field textarea { min-height: 130px; resize: vertical; }
 .field input:focus, .field select:focus, .field textarea:focus { border-color: var(--gold); box-shadow: 0 0 0 3px rgba(154,110,40,.13); }
 .form-note, .form-status { margin: 0; color: var(--muted); font-size: 14px; }
+.form-consent { color: var(--muted); font-size: 14px; line-height: 1.55; }
+.form-consent p { margin: 0; }
 .form-status { display: none; padding: 12px 14px; background: var(--cream-2); border-left: 3px solid var(--gold); }
 .form-status.is-visible { display: block; }
 
